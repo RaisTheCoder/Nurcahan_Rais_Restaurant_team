@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/home.html",
+      "status": 302
+    },
+    {
+      "src": "/.*",
+      "dest": "/home.html",
+      "status": 302
+    }
+  ]
+}
