@@ -1,12 +1,12 @@
 {
   "routes": [
     {
-      "src": "/",
+      "src": "^/$",
       "dest": "/home.html",
       "status": 302
     },
     {
-      "src": "/.*",
+      "src": "^(?!/home\\.html).*",
       "dest": "/home.html",
       "status": 302
     }
