@@ -4,11 +4,6 @@
       "src": "^/$",
       "dest": "/home.html",
       "status": 302
-    },
-    {
-      "src": "^(?!/home\\.html).*",
-      "dest": "/home.html",
-      "status": 302
     }
   ]
 }
